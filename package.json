@@ -1,0 +1,47 @@
+{
+  "name": "@aetherframework/queue-module",
+  "version": "1.0.0",
+  "description": "Enterprise-grade queue system with factory pattern and no third-party dependencies",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node examples/basic-usage.js",
+    "start:multi": "node examples/multi-node.js",
+    "start:enterprise": "node examples/enterprise-usage.js"
+  },
+  "keywords": [
+    "queue",
+    "factory-pattern",
+    "no-dependencies",
+    "cluster",
+    "enterprise"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "jsdoc": "^4.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Aether Framework Team",
+   "license": "MIT",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/aetherjs/aetherframework-queue-module.git"
+   },
+   "bugs": {
+      "url": "https://github.com/aetherjs/aetherframework-queue-module/issues",
+      "email": "support@aetherjs.org"
+   },
+   "homepage": "https://www.aetherjs.org",
+  "files": [
+    "index.js",
+    "scheduler.js",
+    "worker.js",
+    "README.md",
+    "LICENSE"
+  ]
+}

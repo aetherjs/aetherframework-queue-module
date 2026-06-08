@@ -1,6 +1,6 @@
 {
   "name": "@aetherframework/queue-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enterprise-grade queue system with factory pattern and no third-party dependencies",
   "type": "module",
   "main": "index.js",

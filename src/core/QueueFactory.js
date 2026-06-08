@@ -40,7 +40,6 @@ class Queue extends EventEmitter {
     if (typeof this.driver.start === 'function') {
       return this.driver.start();
     }
-    console.log(`Driver ${this.driverType} lacks start(). Using fallback polling.`);
     return this._factory._startPolling(this.name, this.driver, this);
   }
 
